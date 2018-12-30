@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".RateActivity">
+
+    <TextView
+        android:id="@+id/tv_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/quicksand"
+        android:gravity="center"
+        android:text="Wina"
+        android:textAlignment="center"
+        android:textColor="#5763C9"
+        android:textSize="@dimen/title_auth"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Honda Jazz"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+
+    <TextView
+        android:id="@+id/tv_plat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B6501SGD"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:numStars="5"
+        android:stepSize="0.1" />
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:layout_height="200dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:hint="Tuliskan komentar"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textSize="@dimen/text_auth" />
+
+    <Button
+        android:id="@+id/bt_to_scan"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+</LinearLayout>

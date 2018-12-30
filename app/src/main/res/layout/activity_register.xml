@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/quicksand"
+            android:gravity="center"
+            android:text="Register"
+            android:textAlignment="center"
+            android:textColor="#5763C9"
+            android:textSize="@dimen/title_auth"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="48dp"
+            android:gravity="bottom"
+            android:paddingLeft="8dp"
+            android:text="Fullname"
+            android:textSize="@dimen/text_auth1" />
+
+        <EditText
+            android:id="@+id/et_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:hint="Fullname"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textSize="@dimen/text_auth" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:gravity="bottom"
+            android:paddingLeft="8dp"
+            android:text="Gender"
+            android:textSize="@dimen/text_auth1" />
+
+        <Spinner
+            android:id="@+id/sp_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:entries="@array/gender"
+            android:paddingLeft="4dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:prompt="@string/gender_prompt"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:gravity="bottom"
+            android:paddingLeft="8dp"
+            android:text="Date of Birth"
+            android:textSize="@dimen/text_auth1" />
+
+        <EditText
+            android:id="@+id/et_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:hint="dd/mm/yy"
+            android:inputType="datetime"
+            android:padding="8dp"
+            android:textSize="@dimen/text_auth" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="8dp"
+            android:background="#ccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:gravity="bottom"
+            android:paddingLeft="8dp"
+            android:text="Car's Brand"
+            android:textSize="@dimen/text_auth1" />
+
+        <EditText
+            android:id="@+id/et_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:hint="Car's Brand"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textSize="@dimen/text_auth" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="48dp"
+            android:gravity="bottom"
+            android:paddingLeft="8dp"
+            android:text="Car's Plat Number"
+            android:textSize="@dimen/text_auth1" />
+
+        <EditText
+            android:id="@+id/et_plat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:hint="Car's Plat Number"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textSize="@dimen/text_auth" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="8dp"
+            android:background="#ccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:gravity="bottom"
+            android:paddingLeft="8dp"
+            android:text="Email"
+            android:textSize="@dimen/text_auth1" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textSize="@dimen/text_auth" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:gravity="bottom"
+            android:paddingLeft="8dp"
+            android:text="Phone Number"
+            android:textSize="@dimen/text_auth1" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:padding="8dp"
+            android:textSize="@dimen/text_auth" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:gravity="bottom"
+            android:paddingLeft="8dp"
+            android:text="Password"
+            android:textSize="@dimen/text_auth1" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textSize="@dimen/text_auth" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:gravity="bottom"
+            android:paddingLeft="8dp"
+            android:text="Password Confirmation"
+            android:textSize="@dimen/text_auth1" />
+
+        <EditText
+            android:id="@+id/et_repassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:hint="Password Confirmation"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textSize="@dimen/text_auth" />
+
+        <Button
+            android:id="@+id/bt_register"
+            android:layout_width="136dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="48dp"
+            android:text="Daftar"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_auth" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="136dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="48dp"
+            android:layout_weight="0.9"
+            android:theme="@style/AppTheme.whiteprogress"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/to_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:text="Sudah terdaftar? Masuk sini!" />
+
+    </LinearLayout>
+
+</ScrollView>

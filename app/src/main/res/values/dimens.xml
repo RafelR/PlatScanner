@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">130dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="title_auth">36sp</dimen>
+    <dimen name="text_auth">20sp</dimen>
+    <dimen tools:override="true" name="design_navigation_icon_padding">16dp</dimen>
+    <dimen tools:override="true" name="design_navigation_separator_vertical_padding">0dp</dimen>
+    <dimen tools:override="true" name="design_navi">0dp</dimen>
+    <dimen name="text_auth1">16sp</dimen>
+
+</resources>

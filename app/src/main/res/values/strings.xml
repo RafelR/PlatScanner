@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Plat Scanner</string>
+    <string name="gender_prompt">Choose gender</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="select_image_for_text_recognition">Select image for text recognition</string>
+    <string name="find_text_button">Find text</string>
+    <string name="find_face_contour_button">Find face contour</string>
+    <string name="find_text_cloud_button">Find text (cloud)</string>
+    <string name="find_objects_button">Find objects</string>
+    <string name="title_activity_open_camera">OpenCamera</string>
+    <string name="capture">Capture</string>
+    <string name="camera_not_supported">Your Device doesn\'t Support Camera.</string>
+    <string name="capture_image_failed">Failed to capture image.</string>
+    <string name="permission_message">Both permissions are required. Please allow both permission to take picture.</string>
+    <string name="cancel_message">Cancelled by user.</string>
+    <string name="capture_deny_message">Capture image won\'t work without both permissions.</string>
+
+</resources>
